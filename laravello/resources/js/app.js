@@ -21,6 +21,8 @@ window.Vue = require('vue');
 
 import Board from './components/Board.vue';
 import Dashboard from './components/Dashboard.vue';
+import Card from './components/Card.vue';
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -32,5 +34,6 @@ const app = new Vue({
      components: {
         'dashboard': Dashboard,
         'board': Board,
+        'card': Card,
       }
 });
